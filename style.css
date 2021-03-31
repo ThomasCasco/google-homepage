@@ -1,0 +1,43 @@
+body {
+    background-color: #fff;
+}
+
+#image {
+  
+    max-width:100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+  #navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;     
+  }
+
+  .navbar2 {
+    display: inline;
+    padding-left: 2%;
+    float: right;
+    white-space: nowrap;
+  }
+
+  .button-nav {
+      color: rgba(0,0,0,0.87);
+      font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+      z-index: 986;
+      display: inline-block;
+      line-height: 24px;
+      vertical-align: middle;
+  }
+  
+  .border-icon {
+      border-radius: 50%;
+    }
+
+   .googleapp {
+       height: 32px;
+       width: 32px;
+   } 
