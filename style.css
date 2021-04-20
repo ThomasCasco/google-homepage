@@ -3,12 +3,12 @@ body {
 }
 
 #image {
+  margin: 20px auto;
+  display: block;
+  padding-top: 5%;
+  padding-left: 15%;
   
-    max-width:100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    
+
   }
 
   #navbar {
@@ -31,6 +31,8 @@ body {
       display: inline-block;
       line-height: 24px;
       vertical-align: middle;
+      text-decoration:none;
+      list-style: none;
   }
   
   .border-icon {
@@ -41,3 +43,50 @@ body {
        height: 32px;
        width: 32px;
    } 
+
+   #navbar3 {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    background-color:     padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    position: relative;
+    bottom: -450px;
+    list-style: none;
+   }
+
+   .bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+  }
+  .bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  .bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+  .searchbar{
+    position: relative;
+    bottom: -3px;
+    height:20px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    
+  }
+  .voice{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:10px;
